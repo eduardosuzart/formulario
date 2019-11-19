@@ -1,0 +1,44 @@
+#formulario {
+    margin: 0 auto;
+    width: 400px;
+    padding-top: auto;
+    padding-left: 10em;
+    padding-right: 10em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+form div + div {
+    margin-top: 5px;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    font-weight: bold;
+    color: rgba(15, 15, 15, 0.575);   
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 2px solid #5DBCD2;
+
+}
+input {
+    font: 1em arial;
+    width: 400px;
+    border: 2px solid #5DBCD2;
+    border-radius: 2px;
+}
+#enviar {
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    margin-left: 325px;
+    margin-top: 10px;
+    color: white;
+    background-color: #5DBCD2;
+
+}
+h1, p {
+    text-align: center;
+}

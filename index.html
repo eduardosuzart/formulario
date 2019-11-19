@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form action="#" id="formulario" onsubmit="return validaForm(this);">
+        <h1>Formulário de Contato</h1>
+        <p>Preencha o formulário abaixo para falar com a nossa equipe de atendimento.</p>
+        <div>
+            <label for="primeironome">Nome </label><br>
+            <input id="primeironome" type="text" name="primeironome" placeholder="Digite seu nome">
+            
+        </div>
+        <div>
+            <label for="email">E-mail</label><br>
+            <input id="email" type="email" placeholder="Digite seu e-mail">
+        </div>
+        <div>
+            <label for="endereco">Endereço</label>
+            <input id="endereco" type="tel" placeholder="Digite seu endereço">
+        </div>
+        <div>
+            <label for="contato">Contato</label><br>
+            <input id="contato" type="tel">
+        </div>
+        <div>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea id="mensagem" name="mensagem" cols="48" rows="10"></textarea>
+        </div>
+        <input id="enviar" type="submit" value="Enviar">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
